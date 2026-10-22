@@ -1,0 +1,30 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sqoch-tickets@1.0.0 test:e2e
+> playwright test --grep взрослый и ребёнок|до подтверждения заканчиваются места
+
+
+Running 4 tests using 4 workers
+
+(node:7991) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7989) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7991) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7989) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [mobile-360] › e2e/checkout.spec.ts:121:1 › до подтверждения заканчиваются места; введённое остаётся доступно (1.8s)
+  ✓  3 [mobile-360] › e2e/checkout.spec.ts:29:1 › взрослый и ребёнок: данные, проверка, успешный заказ (1.9s)
+  ✓  4 [desktop] › e2e/checkout.spec.ts:121:1 › до подтверждения заканчиваются места; введённое остаётся доступно (2.0s)
+  ✓  1 [desktop] › e2e/checkout.spec.ts:29:1 › взрослый и ребёнок: данные, проверка, успешный заказ (2.2s)
+
+  4 passed (3.0s)
